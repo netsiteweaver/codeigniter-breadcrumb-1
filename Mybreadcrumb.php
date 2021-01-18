@@ -3,7 +3,7 @@
 class CI_Mybreadcrumb {
 
 	private $breadcrumbs = array();
-	private $tags = "";
+	private $tags = array();
 	
 	function __construct()
 	{
